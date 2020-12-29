@@ -14,7 +14,7 @@
 
 <body>
 	
-<a href='insertdeatil.php' class="insert">INSERT</a>
+<a href='insertDeatil.php' class="insert">INSERT</a>
 <a href='https://aitecell.in/' class="home">HOME PAGE</a>
 <div class="back">
 
