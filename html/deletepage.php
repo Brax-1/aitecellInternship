@@ -66,7 +66,7 @@ $suser = $_SESSION['user'];
     </table>
     <a href='manageEdit.php' class='edit'>Edit</a>   
                     <a href='manage.php' class='del'>Delete</a>
-                    <a href='insertdeatil.php' class='ins'>Insert</a>
+                    <a href='insertdeatil.php' class='ins'>Add More</a>
         <?php } 
         else{
             echo 'No Data found'; ?>
