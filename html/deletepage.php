@@ -70,7 +70,7 @@ $suser = $_SESSION['user'];
         <?php } 
         else{
             echo 'No Data found'; ?>
-            <a href='insertdeatil.php' class='ins'>Insert</a>
+            <a href='insertDeatil.php' class='ins'>Insert</a>
    <?php     }
         ?>
         
