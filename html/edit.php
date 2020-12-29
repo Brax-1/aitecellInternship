@@ -26,8 +26,9 @@ if(!$_SESSION['user']){
       </form>
       <?php
       $id = $_POST['id'];
+      $suser = $_SESSION['user'];
               $conn = mysqli_connect("remotemysql.com","MIgbqQ56pk","k4T02GvM0s","MIgbqQ56pk") or die("Connection failed");
-			  $sql = "select * from internship where id={$id};";
+			  $sql = "select * from internship where id={$id} and username='{$suser}'; ";
                 $result = mysqli_query($conn,$sql) or die("query failed");
                 
                    
