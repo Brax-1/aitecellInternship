@@ -19,7 +19,7 @@
         <div class="content">
             <div class="left">
                 <div class="login-content">
-                    <form action="signup.php" method="POST">
+                    <form action="index.php" method="POST">
                         <img src="images/skills.png">
                         <h2 class="title">Signup</h2>
                            <div class="input-div one">
