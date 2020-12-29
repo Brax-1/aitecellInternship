@@ -45,7 +45,7 @@ if(!$_SESSION['user']){
                               </div>
                               <div class="div">
                                       <h5>Topic</h5>
-                                      <input type="text" class="input" name="topic" required>
+                                      <input type="text" class="input" name="topic" autocomplete="off" required>
                               </div>
                            </div>
                            <div class="input-div one">
@@ -54,7 +54,7 @@ if(!$_SESSION['user']){
                             </div>
                             <div class="div">
                                     <h5>Desc</h5>
-                                    <input type="text" class="input" name="desc" required>
+                                    <input type="text" class="input" name="desc" autocomplete="off" required>
                             </div>
                          </div>
                          <div class="input-div one">
@@ -63,7 +63,7 @@ if(!$_SESSION['user']){
                             </div>
                             <div class="div">
                                     <h5>Contact</h5>
-                                    <input type="text" class="input" name = "cont" required>
+                                    <input type="text" class="input" name = "cont" autocomplete="off" required>
                             </div>
                          </div>
                          <div class="input-div one">
@@ -72,7 +72,7 @@ if(!$_SESSION['user']){
                             </div>
                             <div class="div">
                                     <h5>E-mail</h5>
-                                    <input type="text" class="input" name = "email" required>
+                                    <input type="text" class="input" name = "email" autocomplete="off" required>
                             </div>
                          </div>
 
@@ -82,7 +82,7 @@ if(!$_SESSION['user']){
                             </div>
                             <div class="div">
                                     <h5>Website</h5>
-                                    <input type="text" class="input" name = "web" required>
+                                    <input type="text" class="input" name = "web" autocomplete="off" required>
                             </div>
                          </div><div class="input-div one">
                             <div class="i">
@@ -90,7 +90,7 @@ if(!$_SESSION['user']){
                             </div>
                             <div class="div">
                                    
-                                    <input type="file" name="image" class="input" id="choose" required>
+                                    <input type="file" name="image" class="input" id="choose" autocomplete="off" required>
                                    
                             </div>
                          </div>
