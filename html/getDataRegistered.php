@@ -21,7 +21,7 @@
       <h2>Army Institute of Technology - Ait Ecell</h2>
   </div>
 
-<a href="inovattion.php" class="mainpage">MAIN PAGE</a>
+<a href="studentdata.php" class="mainpage">MAIN PAGE</a>
         <div class="content">
             <div class="left">
                 <div class="login-content">
