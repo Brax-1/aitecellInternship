@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-$suser = $_SESSION['user'];
+
     $conn = mysqli_connect("remotemysql.com","MIgbqQ56pk","k4T02GvM0s","MIgbqQ56pk") or die("Connection failed");
     $sql = "select * from internship;";
     $result=mysqli_query($conn,$sql) or die("query unscessfull");
@@ -24,7 +24,7 @@ $suser = $_SESSION['user'];
     ?>
     <div id="wrapper">
         <div id="header">
-            <h1>Students Data</h1>
+            <h1>Students Data For Students</h1>
         </div>
         <div id="main-content">
 

@@ -21,6 +21,7 @@
       <h2>Army Institute of Technology - Ait Ecell</h2>
   </div>
 
+<a href="studentdataforstudents.php" class="mainpage">All Students</a>
         <div class="content">
             <div class="left">
                 <div class="login-content">
