@@ -47,7 +47,7 @@
             </div>
           
             <div class="right">
-                <img src="images/signup.png" alt="" srcset="">
+                <img src="images/final2ohk.png" alt="" srcset="">
             </div>
         </div>
 

@@ -7,6 +7,8 @@ $suser = $_SESSION['user'];
 
     $sql = "DELETE FROM internship WHERE internship.id = {$sid} and internship.username='{$suser}';";
     $result = mysqli_query($conn,$sql) or die("Unscess");
+
+
     header("Location: deletepage.php");
     mysqli_close($conn);
 ?>

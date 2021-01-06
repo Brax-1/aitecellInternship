@@ -27,6 +27,9 @@ $stopic = $_POST['topic'];
 
         $sql = "insert into internship(topic,description,image,contact,email,link,username) value('{$stopic}','{$sdesc}','{$destinationfile}','{$scont}','{$semail}','{$sweb}','{$suser}');";
         $result = mysqli_query($conn,$sql) or die("Unscess");
+   
+   
+
         header("Location: inovattion.php");
         mysqli_close($conn);
     }

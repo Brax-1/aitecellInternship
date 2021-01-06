@@ -43,8 +43,10 @@
 			<div class="details">
 			
 			<p><?php echo $res['description'];?><br>Contact: <?php echo $res['contact'];?><br> Email: <?php echo $res['email'];?></p>
+
+			<form action="data.php?table=<?php echo $res['topic'];?>" method="post"></form>
 		
-			<a href="<?php echo $res['link'];?>" class="btn">Get Link</a>
+			<a href="getDataRegistered.php?link=<?php echo $res['link'];?>&topic=<?php echo $res['topic'];?>" class="btn">Get Link</a>
 	
 			</div>
 			

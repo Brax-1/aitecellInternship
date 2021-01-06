@@ -106,7 +106,7 @@ if(!$_SESSION['user']){
             </div>
           <?php } ?>
             <div class="right">
-                <img src="../images/img4.png" alt="" srcset="">
+                <img src="../images/final3ohk" alt="" srcset="">
             </div>
         </div>
 
