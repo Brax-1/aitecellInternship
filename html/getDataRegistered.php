@@ -20,8 +20,7 @@
       <img src="../images/badge.jpg" alt="" srcset="">
       <h2>Army Institute of Technology - Ait Ecell</h2>
   </div>
-<!-- //ok -->
-<a href="studentdata.php" class="mainpage">MAIN PAGE</a>
+
         <div class="content">
             <div class="left">
                 <div class="login-content">

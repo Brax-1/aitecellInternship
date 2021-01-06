@@ -1,9 +1,4 @@
-<?php 
-session_start();
-if(!$_SESSION['user']){
-        header('location:loginpage.html');
-}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
