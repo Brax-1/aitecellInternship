@@ -39,7 +39,7 @@
                            </div>
                            <div class="input-div one">
                             <div class="i">
-                                    <i class="fas fa-user"></i>
+                                    <i class="fas fa-print"></i>
                             </div>
                             <div class="div">
                                     <h5>Merit Number</h5>
@@ -48,7 +48,7 @@
                          </div>
                          <div class="input-div one">
                             <div class="i">
-                                    <i class="fas fa-user"></i>
+                                    <i class="fas fa-satellite-dish"></i>
                             </div>
                             <div class="div">
                                     <h5>Branch with year</h5>
