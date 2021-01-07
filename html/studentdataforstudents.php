@@ -73,7 +73,7 @@
         <?php }else{
 
          ?>
-            <a  class='ins'>No one did yet...</a>
+            <a  class='ins'>No one did yet...</a><br><br>
     
     <?php
     }
