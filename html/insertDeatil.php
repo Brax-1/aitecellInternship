@@ -59,6 +59,15 @@ if(!$_SESSION['user']){
                          </div>
                          <div class="input-div one">
                             <div class="i">
+                                    <i class="fas fa-file-code"></i>
+                            </div>
+                            <div class="div">
+                                    <h5>Requirements</h5>
+                                    <input type="text" class="input" name="req" autocomplete="off" required>
+                            </div>
+                         </div>
+                         <div class="input-div one">
+                            <div class="i">
                                     <i class="fas fa-phone-alt"></i>
                             </div>
                             <div class="div">

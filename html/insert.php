@@ -3,6 +3,7 @@ session_start();
 $conn = mysqli_connect("remotemysql.com","MIgbqQ56pk","k4T02GvM0s","MIgbqQ56pk") or die("Connection failed");
        
 $stopic = $_POST['topic'];
+$sreq = $_POST['req'];
     $sdesc = $_POST['desc'];
     $simg = $_FILES['image'];
 
@@ -25,12 +26,12 @@ $stopic = $_POST['topic'];
         $destinationfile = '../images/'.$simagefile;
         move_uploaded_file($sfiletemp,$destinationfile);
 
-        $sql = "insert into internship(topic,description,image,contact,email,link,username) value('{$stopic}','{$sdesc}','{$destinationfile}','{$scont}','{$semail}','{$sweb}','{$suser}');";
+        $sql = "insert into internship(topic,description,image,contact,email,link,username,requirements) value('{$stopic}','{$sdesc}','{$destinationfile}','{$scont}','{$semail}','{$sweb}','{$suser}','{$sreq}');";
         $result = mysqli_query($conn,$sql) or die("Unscess");
    
    
 
-        header("Location: inovattion.php");
+        header("Location: internship.php");
         mysqli_close($conn);
     }
 ?>

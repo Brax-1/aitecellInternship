@@ -15,9 +15,7 @@
 <body>
 	
 <a href='https://aitecell.in/' class="home">HOME PAGE</a>
-<div class="back">
 
-</div>
 	<div class="container">
 
 		<ul id="autoWidth" class="cs-hidden">
@@ -41,7 +39,7 @@
 		
 			<div class="details">
 			
-			<p><?php echo $res['description'];?><br>Contact: <?php echo $res['contact'];?><br> Email: <?php echo $res['email'];?></p>
+			<p><?php echo $res['description'];?><br>Requirements:<br><?php echo $res['requirements'];?><br><br>Contact: <?php echo $res['contact'];?><br> Email: <?php echo $res['email'];?></p>
 
 			<form action="data.php?table=<?php echo $res['topic'];?>" method="post"></form>
 		
