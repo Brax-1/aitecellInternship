@@ -36,7 +36,9 @@
 </div>
 <?php } ?>
 </div>
-
+<footer class="foot">
+© 2020-21 All Rights Reserved. AIT Entrepreneurship Cell
+</footer>
 </section>
 
 
