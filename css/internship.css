@@ -13,12 +13,12 @@
 .container{
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    position: absolute;
+    position: relative;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    top: 20%;
+    top: 130px;
  
 }
 .card-wrapper{
@@ -193,6 +193,7 @@
 .foot{
     background: linear-gradient(to right, #302f30, #990b81, #b1052a);
     padding: 20px;
+    position: relative;
     margin-top: 3%;
     width: 100%;
     text-align: center;
