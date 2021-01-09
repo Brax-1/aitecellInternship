@@ -226,10 +226,15 @@
         font-size: 16px;
          
      }
+     .foot {
+        margin-top: 8%;
+     
+    }
 }
 @media (max-width:700px){
     .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
+      
         
     }
     .card .topic{
@@ -246,6 +251,10 @@
     
         margin-top: 70px;
 
+    }
+    .foot {
+        margin-top: 33%;
+     
     }
 }
 @media (max-width:700px){ 
